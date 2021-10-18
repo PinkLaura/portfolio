@@ -1,0 +1,105 @@
+/*import fonts*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+/*set colors palette*/
+
+:root {
+    --fucsia: #D60055;
+    --purple: #7D1F4C;
+    --white: #FFFFFF;
+    --grey-dark: #555555;
+    --grey-light: #BEBEBE;
+    --grey-wellow: #F4F3ED;
+
+    
+    --pink-1: #FBDBDD;
+    --pink-2: #FFCCCC;
+}
+
+/**/
+
+*,
+a:link,
+a:visited,
+*:active {
+    box-sizing: border-box !important;
+}
+
+
+a:hover{
+    color: var(--purple) !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html{
+    background-color: var(--grey-wellow);
+    font-family: "Raleway", sans-serif;
+    color: var(--grey-dark)
+}
+
+img {
+    max-width: 100%;
+}
+
+.pl-title-1{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+
+    color: var(--grey-dark);
+    
+}
+
+.pl-title-1 .bold{
+    font-weight: 700;
+    font-size: 1.1em;
+
+    color: var(--fucsia);
+}
+
+.pl-title-2{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+    color: var(--fucsia);
+}
+
+.pl-paragraph{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+    color: var(--grey-dark);
+}
+
+
+.pl-button-2{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+    color: var(--fucsia);
+}
+
+i{
+    color: var(--grey-light);
+}
+
+
+/*Nav*/
+
+.nav-link, a{
+    
+    font-family: "Raleway", sans-serif;
+    color: var(--grey-dark);
+}
