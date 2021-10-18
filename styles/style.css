@@ -10,7 +10,7 @@
     --white: #FFFFFF;
     --grey-dark: #555555;
     --grey-light: #BEBEBE;
-    --grey-yellow: #F4F3ED;
+    --grey-yellow: #e9cf40;
 
     
     --pink-1: #FBDBDD;
@@ -118,7 +118,7 @@ i{
     color: var(--grey-light);
     border: 2px solid var(--grey-light);
     border-radius: 20px;
-    padding: 0.06rem 0.3rem;
+    padding: 0.08em 0.5em 0.15em 0.5em;
     font-size: 0.8rem;
     font-weight: 500;
 }
@@ -141,3 +141,10 @@ i{
     font-family: "Raleway", sans-serif;
     color: var(--grey-dark);
 }
+
+
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 75%;
+}}
