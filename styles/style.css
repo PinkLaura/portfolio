@@ -10,7 +10,7 @@
     --white: #FFFFFF;
     --grey-dark: #555555;
     --grey-light: #BEBEBE;
-    --grey-yellow: #e9cf40;
+    --grey-yellow: #F4F3ED;
 
     
     --pink-1: #FBDBDD;
@@ -24,7 +24,6 @@ a:link,
 a:visited,
 *:active {
     box-sizing: border-box !important;
-    z-index: 10;
 }
 
 
@@ -38,12 +37,13 @@ a:hover{
     box-sizing: inherit;
 }
 
-html{
+html, body{
     background-color: var(--grey-yellow);
     font-family: "Raleway", sans-serif;
     color: var(--grey-dark);
 
     font-size: 18px;   
+    z-index: 1000;
 }
 
 img {
