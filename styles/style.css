@@ -24,6 +24,7 @@ a:link,
 a:visited,
 *:active {
     box-sizing: border-box !important;
+    z-index: 10;
 }
 
 
@@ -40,7 +41,9 @@ a:hover{
 html{
     background-color: var(--grey-wellow);
     font-family: "Raleway", sans-serif;
-    color: var(--grey-dark)
+    color: var(--grey-dark);
+
+    font-size: 18px;   
 }
 
 img {
@@ -92,9 +95,21 @@ img {
 }
 
 i{
-    color: var(--grey-light);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
+.pl-btn{
+ background-color: var(--fucsia);
+ color: var(--white);
+
+ border-radius: 15px;
+}
+
+.pl-btn:hover{
+    background-color: var(--purple);
+    color: var(--white) !important;
+}
 
 /*Nav*/
 

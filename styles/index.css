@@ -1,2 +1,21 @@
 /* ------- import general CSS  ------- */
 @import url('style.css');
+
+
+.stylized-me{
+    max-height: 22rem;
+}
+
+#bg-spot-1{
+    position: absolute;
+    right: -8rem;
+    bottom: -7rem;
+
+    z-index: 2;
+    max-height: 38rem;
+}
+
+#initial-section{
+    margin-top: 15vh;
+}
+
