@@ -10,7 +10,7 @@
     --white: #FFFFFF;
     --grey-dark: #555555;
     --grey-light: #BEBEBE;
-    --grey-wellow: #F4F3ED;
+    --grey-yellow: #F4F3ED;
 
     
     --pink-1: #FBDBDD;
@@ -39,7 +39,7 @@ a:hover{
 }
 
 html{
-    background-color: var(--grey-wellow);
+    background-color: var(--grey-yellow);
     font-family: "Raleway", sans-serif;
     color: var(--grey-dark);
 
@@ -53,7 +53,7 @@ img {
 .pl-title-1{
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 0.5rem 0;
 
     color: var(--grey-dark);
@@ -70,10 +70,18 @@ img {
 .pl-title-2{
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1rem 0;
 
     color: var(--fucsia);
+}
+
+.pl-title-3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: var(--grey-dark);
+    font-size: 1.4rem;
+    padding: 1.2rem 0 0.5rem 0;
 }
 
 .pl-paragraph{
@@ -104,6 +112,21 @@ i{
  color: var(--white);
 
  border-radius: 15px;
+}
+
+.pl-tag{
+    color: var(--grey-light);
+    border: 2px solid var(--grey-light);
+    border-radius: 20px;
+    padding: 0.06rem 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.pl-tag:hover {
+    color: var(--white);
+    border: 2px solid var(--grey-light);
+    background-color: var(--grey-light);
 }
 
 .pl-btn:hover{
