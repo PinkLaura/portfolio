@@ -26,14 +26,15 @@ a:visited,
     box-sizing: border-box !important;
 }
 
+a{
+    text-decoration: none;
+}
 
 a:hover{
     color: var(--purple) !important;
 }
 
-*,
-*::before,
-*::after {
+*{
     box-sizing: inherit;
 }
 
@@ -47,6 +48,7 @@ html{
 
 body{
     background-color: var(--grey-yellow);
+    width: 100%;
 }
 
 img {
@@ -60,7 +62,6 @@ img {
     padding: 0.5rem 0;
 
     color: var(--grey-dark);
-    
 }
 
 .pl-title-1 .bold{

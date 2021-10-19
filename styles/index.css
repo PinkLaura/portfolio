@@ -8,7 +8,18 @@
 
 #initial-section{
     margin-top: 15vh;
+    max-width: 100%;
 }
+
+/*
+#initial-section::before {
+    position: absolute;
+    right: 35rem;
+    top: 13rem;
+
+    height: 38rem;
+    z-index: 0;
+}*/
 
 
 #initial-section div, 
@@ -52,6 +63,7 @@
 
     z-index: 0;
     max-height: 38rem;
+    overflow: hidden;
 }
 
 #pl-spot-2, #pl-spot-3 {
@@ -69,14 +81,15 @@
 
 #pl-spot-4, #pl-spot-5{
     position: absolute;
-    bottom: -65vh;
+    bottom: -60vh;
 
     z-index: -10;
     max-width: 25rem;
 }
 
 #pl-spot-4{
-    right: 3rem;
+    bottom: -45vh;
+    right: 0.5rem;
 }
 
 .pl-cv-card{
@@ -86,6 +99,7 @@
     font-size: 0.8rem;    
     font-family: "Raleway", sans-serif;
 
+    width: 100%;
     padding: 1rem;
 }
 
@@ -97,6 +111,7 @@
     font-weight: 300;
     margin: 0;
 }
+
 .pl-cv-card h4{
     font-size: 1rem;
     
@@ -127,9 +142,9 @@
 }
 
 .pl-ball{
-    margin-right: 1rem;
-    min-width: 1.5rem;
-    min-height: 1.5rem;
+    margin-right: 1.1rem;
+    min-width: 1.3rem;
+    min-height: 1.3rem;
     border-radius: 50%;
     background-color: var(--fucsia);
     border: 3px solid var(--grey-yellow);
