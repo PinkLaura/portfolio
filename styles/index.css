@@ -10,6 +10,7 @@
     margin-top: 15vh;
 }
 
+
 #initial-section div, 
 #initial-section .stylized-me{
     z-index: 1020;
@@ -129,3 +130,8 @@
     z-index: 20;
 }
 
+@media screen and (max-width: 600px) {
+    #initial-section{
+        margin-top: 10vh;
+    }
+}
