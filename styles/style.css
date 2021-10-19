@@ -168,6 +168,14 @@ i{
     color: var(--text-grey) !important;
 }
 
+
+/*Footer*/
+footer{
+    margin-top: 2rem;
+    background-color: var(--grey-dark);
+    color: var(--grey-yellow);
+}
+
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 75%;

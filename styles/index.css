@@ -114,10 +114,17 @@
     z-index: 10;
 }
 
-.left{
+.left .pl-line{
     left: calc(1.5rem - 1px);
 }
 
+.right .pl-line{
+    right: calc(2.5rem - 1px);
+}
+
+.pl-cv-card {
+    margin: 1rem 1rem 1rem 0;
+}
 
 .pl-ball{
     margin-right: 1rem;
