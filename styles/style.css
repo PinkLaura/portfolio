@@ -37,13 +37,16 @@ a:hover{
     box-sizing: inherit;
 }
 
-html, body{
-    background-color: var(--grey-yellow);
+html{    
     font-family: "Raleway", sans-serif;
     color: var(--grey-dark);
 
     font-size: 18px;   
     z-index: 1000;
+}
+
+body{
+    background-color: var(--grey-yellow);
 }
 
 img {
@@ -142,7 +145,11 @@ i{
     color: var(--grey-dark);
 }
 
-
+.navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    z-index: 1100;
+}
 
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
