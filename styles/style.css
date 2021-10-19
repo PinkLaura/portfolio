@@ -47,7 +47,6 @@ html{
 
 body{
     background-color: var(--grey-yellow);
-    max-width: 100%;
 }
 
 img {
@@ -151,15 +150,22 @@ i{
     color: var(--grey-dark);
 }
 
+.active{
+    color: var(--purple) !important;
+}
+
 .navbar{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(30px);
     z-index: 1100;
 }
 
-.navbar-toggler-icon, 
-.navbar-toggler{
-    border: none;
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    border: none !important;
+    outline: none !important;
+    color: var(--text-grey) !important;
 }
 
 @media (min-width: 1400px){
