@@ -101,7 +101,7 @@ border-radius: 32px;
 
 .pl-line {
     position: absolute;
-    top: 0;
+    top: 3rem;
     bottom: 0;
 
     width: 3px;
