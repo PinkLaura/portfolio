@@ -1,34 +1,33 @@
 /* ------- import general CSS  ------- */
-@import url('style.css');
+@import url("style.css");
 
-#tag-row{
-    padding: 0.5rem;
-    background-color: #ffffff94;
-    border-radius: 60px;
-    padding-bottom: 0.8rem;
+#tag-row {
+  padding: 0.5rem;
+  background-color: #ffffff94;
+  border-radius: 60px;
 }
 
-#tag-row .pl-tag{
-    font-size: 0.9rem;
-    background-color: #ffffff48;/*
+#tag-row .pl-tag {
+  font-size: 0.9rem;
+  background-color: #ffffff48; /*
     color: var(--grey-dark);
     border-color: var(--grey-dark);*/
 }
 
-#tag-row .pl-tag:hover, 
-#tag-row .pl-tag.active{
-    background-color: var(--grey-light);
-    color: var(--white) !important;
+#tag-row .pl-tag:hover,
+#tag-row .pl-tag.active {
+  background-color: var(--grey-light);
+  color: var(--white) !important;
 
-    box-shadow: 0px 0px 20px rgba(176, 131, 164, 0.19);;
+  box-shadow: 0px 0px 20px rgba(176, 131, 164, 0.19);
 }
 
-.project-div{
-    display: none;
-    transition-property: all;
-    transition-duration: 1s;
+.project-div {
+  display: none;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
-.project-show{
-    display: flex;
+.project-show {
+  display: flex;
 }
