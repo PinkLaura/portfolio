@@ -2,14 +2,15 @@
 @import url("style.css");
 
 #tag-row {
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem;
   background-color: #ffffff94;
   border-radius: 60px;
 }
 
 #tag-row .pl-tag {
   font-size: 0.9rem;
-  background-color: #ffffff48; /*
+  background-color: #ffffff48;
+  margin: 0.3rem 0; /*
     color: var(--grey-dark);
     border-color: var(--grey-dark);*/
 }
