@@ -1,0 +1,11 @@
+/* ------- import general CSS  ------- */
+@import url('style.css');
+
+.project-section{
+    margin-top: 10vh;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+}
