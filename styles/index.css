@@ -52,6 +52,8 @@
     position: relative;
 }
 
+/*All the decorative spots*/
+
 #pl-spot-1{
     position: absolute;
     right: -8rem;
@@ -88,6 +90,8 @@
     right: 0.5rem;
 }
 
+/*Curriculum cards*/
+
 .pl-cv-card{
     background: #FFFFFF;
     border-radius: 20px;
@@ -97,7 +101,10 @@
 
     width: 100%;
     padding: 1rem;
+    
+    margin: 1rem 1rem 1rem 0;
 }
+
 
 .pl-cv-card h4, .pl-cv-card h5 {
     color: var(--fucsia);
@@ -133,9 +140,6 @@
     right: calc(2.5rem - 1px);
 }
 
-.pl-cv-card {
-    margin: 1rem 1rem 1rem 0;
-}
 
 .pl-ball{
     margin-right: 1.1rem;

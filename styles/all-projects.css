@@ -1,0 +1,22 @@
+/* ------- import general CSS  ------- */
+@import url('style.css');
+
+
+#tag-row .pl-tag{
+    font-size: 0.9rem;
+    background-color: var(--white);/*
+    color: var(--grey-dark);
+    border-color: var(--grey-dark);*/
+}
+
+#tag-row .pl-tag:hover{
+    background-color: var(--grey-light);
+}
+
+.project-div{
+    display: none;
+}
+
+.project-show{
+    display: flex;
+}
