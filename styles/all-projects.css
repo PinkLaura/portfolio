@@ -9,8 +9,7 @@
 
 #tag-row .pl-tag {
   font-size: 0.9rem;
-  background-color: #ffffff48;
-  margin: 0.3rem 0; /*
+  background-color: #ffffff48; /*
     color: var(--grey-dark);
     border-color: var(--grey-dark);*/
 }

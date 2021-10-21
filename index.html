@@ -1,124 +1,130 @@
 <!DOCTYPE html>
 <html lang="it">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Hi, i'm PinkLaura</title>
 
     <!-- meta tags -->
-    <meta content="Pinklaura, UX Designer, portfolio's homepage" name="description">
-    <meta content="PinkLaura, Laura Nesossi, portfolio, UI, UX, designer, UX design, communication theory and technology" name="keyword">
-    <meta content="PinkLaura" name="author">
+    <meta content="Pinklaura, UX Designer, portfolio's homepage" name="description" />
+    <meta content="PinkLaura, Laura Nesossi, portfolio, UI, UX, designer, UX design, communication theory and technology" name="keyword" />
+    <meta content="PinkLaura" name="author" />
 
     <!-- viewport control -->
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0" />
 
-     <!-- CDN Boostrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CDN Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-     
     <!-- icon library from Font Awesome-->
     <script src="https://kit.fontawesome.com/253abd1763.js" crossorigin="anonymous"></script>
 
     <!-- external CSS -->
-    <link rel="stylesheet" href="styles/index.css"> 
-</head>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
+  <body>
+    <!-- JQuery import -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
 
-<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <!-- JQuery import -->
-  <script  src="https://code.jquery.com/jquery-3.6.0.slim.js"   integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="   crossorigin="anonymous"></script>
-  
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="fw-bolder navbar-nav">
+            <li class="nav-item">
+              <a class="active nav-link" aria-current="page" href="#">Who am I?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects/all-projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Curriculum</a>
+            </li>
 
+            <li>
+              <ul class="fw-bolder navbar-nav flex-row">
+                <li class="nav-item">
+                  <a class="nav-link px-md-2 px-4" href="https://github.com/PinkLaura/"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/laura-nesossi/"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=" https://telegram.me/L_Lau"><i class="fab fa-telegram-plane"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:laura_nesossi@protonmail.com"><i class="fas fa-envelope"></i></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-          <div class="collapse navbar-collapse justify-content-end"  id="navbarNav">
-            <ul class="fw-bolder navbar-nav">
-              <li class="nav-item">
-                <a class="active nav-link " aria-current="page" href="#">Who am I?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects/all-projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Curriculum</a>
-              </li>
+    <!-- Initial section - with image and introduction -->
+    <section id="initial-section" class="container-md pt-md-5">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center justify-content-end position-relative">
+          <svg id="pl-spot-1" width="869" height="781" viewBox="0 0 869 781" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M209.793 268.961C141.917 328.605 30.2938 324.026 5.39479 413.329C-39.8757 575.696 225.342 592.286 281.626 628.758C341.645 667.65 315.654 779.771 398.169 780.098C482.069 780.432 568.419 583.503 776.434 576.93C890.698 573.319 890.202 441.715 820.3 362.167C751.771 284.181 665.634 317.161 622.528 268.107C587.578 228.333 627.346 38.3162 484.492 4.07824C341.637 -30.1597 294.637 194.405 209.793 268.961Z"
+              fill="#FF0099"
+              fill-opacity="0.06"
+            />
+            <path
+              d="M209.793 268.961C141.917 328.605 30.2938 324.026 5.39479 413.329C-39.8757 575.696 225.342 592.286 281.626 628.758C341.645 667.65 315.654 779.771 398.169 780.098C482.069 780.432 568.419 583.503 776.434 576.93C890.698 573.319 890.202 441.715 820.3 362.167C751.771 284.181 665.634 317.161 622.528 268.107C587.578 228.333 627.346 38.3162 484.492 4.07824C341.637 -30.1597 294.637 194.405 209.793 268.961Z"
+              fill="url(#paint0_linear_244:791)"
+            />
+            <defs>
+              <linearGradient id="paint0_linear_244:791" x1="205.345" y1="183.983" x2="665.482" y2="707.619" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF94AD" />
+                <stop offset="0.0001" stop-color="#FFE2F5" stop-opacity="0.932292" />
+                <stop offset="1" stop-color="white" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
 
-              <li>
-                <ul class="fw-bolder navbar-nav flex-row">                  
-                  
-                  <li class="nav-item">
-                    <a class="nav-link px-md-2 px-4" href="https://github.com/PinkLaura/"><i class="fab fa-github"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/laura-nesossi/"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href=" https://telegram.me/L_Lau"><i class="fab fa-telegram-plane"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="mailto:laura_nesossi@protonmail.com"><i class="fas fa-envelope"></i></a>
-                  </li>
-                </ul>
-              </li>
-              
+          <img class="px-3 stylized-me" src="images/me.svg" />
+        </div>
 
-            </ul>
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h1 class="pl-title-1">Hi, I'm <span class="bold">PinkLaura</span>!</h1>
+            <p class="pl-paragraph">
+              I’m an apprendee <span class="fw-bold">UX Designer</span> with a Computer Science background.<br />
+              I’m passionate about research processes and design trends.
+            </p>
+            <p>
+              <a href="https://dribbble.com/PinkLaura"><i class="pe-2 fab fa-dribbble"></i></a>
+              <a href="https://github.com/PinkLaura/"><i class="px-2 fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/laura-nesossi/"><i class="px-2 fab fa-linkedin-in"></i></a>
+            </p>
+
+            <a class="pl-btn btn" href="#" role="button">Download CV</a>
           </div>
         </div>
-      </nav>
+      </div>
 
-      <!-- Initial section - with image and introduction -->
-      <section id="initial-section" class="container-md pt-md-5">
-
-        <div class="row">
-              <div class="col-md-6 d-flex align-items-center justify-content-end position-relative">
-
-        
-       
-            <svg id="pl-spot-1" width="869" height="781" viewBox="0 0 869 781" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M209.793 268.961C141.917 328.605 30.2938 324.026 5.39479 413.329C-39.8757 575.696 225.342 592.286 281.626 628.758C341.645 667.65 315.654 779.771 398.169 780.098C482.069 780.432 568.419 583.503 776.434 576.93C890.698 573.319 890.202 441.715 820.3 362.167C751.771 284.181 665.634 317.161 622.528 268.107C587.578 228.333 627.346 38.3162 484.492 4.07824C341.637 -30.1597 294.637 194.405 209.793 268.961Z" fill="#FF0099" fill-opacity="0.06"/>
-              <path d="M209.793 268.961C141.917 328.605 30.2938 324.026 5.39479 413.329C-39.8757 575.696 225.342 592.286 281.626 628.758C341.645 667.65 315.654 779.771 398.169 780.098C482.069 780.432 568.419 583.503 776.434 576.93C890.698 573.319 890.202 441.715 820.3 362.167C751.771 284.181 665.634 317.161 622.528 268.107C587.578 228.333 627.346 38.3162 484.492 4.07824C341.637 -30.1597 294.637 194.405 209.793 268.961Z" fill="url(#paint0_linear_244:791)"/>
-              <defs>
-              <linearGradient id="paint0_linear_244:791" x1="205.345" y1="183.983" x2="665.482" y2="707.619" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FF94AD"/>
-              <stop offset="0.0001" stop-color="#FFE2F5" stop-opacity="0.932292"/>
-              <stop offset="1" stop-color="white" stop-opacity="0"/>
-              </linearGradient>
-              </defs>
-            </svg>
-
-              <img  class="px-3 stylized-me" src="images/me.svg">
-
-              </div>
-
-              <div class="col-md-6  d-flex align-items-center">
-                <div>
-                  <h1 class="pl-title-1">Hi, I'm <span class="bold">PinkLaura</span>!</h1>
-                  <p class="pl-paragraph">
-                      I’m an apprendee <span class="fw-bold">UX Designer</span> with a Computer Science background.<br/>
-                      I’m passionate about research processes and design trends.  
-                  </p>
-                  <p>
-                      <a href="https://dribbble.com/PinkLaura"><i class="pe-2 fab fa-dribbble"></i></a> 
-                      <a href="https://github.com/PinkLaura/"><i class="px-2 fab fa-github"></i></a>   
-                      <a href="https://www.linkedin.com/in/laura-nesossi/"><i class="px-2 fab fa-linkedin-in"></i></a>
-                  </p>
-
-                  <a class="pl-btn btn" href="#" role="button">Download CV</a>
-                </div>
-            </div>
-          </div>
-
-
-<!--
+      <!--
           <svg  id="pl-spot-4" width="711" height="716" viewBox="0 0 711 716" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M585.549 385.447C607.474 315.645 686.663 271.919 666.379 199.643C629.501 68.234 438.948 168.175 384.666 166.576C326.782 164.871 297.667 76.3414 240.413 110.781C182.198 145.799 205.161 318.391 63.9359 410.333C-13.6405 460.838 41.9936 551.725 123.799 577.421C203.999 602.612 249.767 543.594 300.213 559.44C341.116 572.287 393.419 720.524 506.687 684.206C619.955 647.888 558.143 472.699 585.549 385.447Z" fill="#FF93D4" fill-opacity="0.26"/>
             <path d="M585.549 385.447C607.474 315.645 686.663 271.919 666.379 199.643C629.501 68.234 438.948 168.175 384.666 166.576C326.782 164.871 297.667 76.3414 240.413 110.781C182.198 145.799 205.161 318.391 63.9359 410.333C-13.6405 460.838 41.9936 551.725 123.799 577.421C203.999 602.612 249.767 543.594 300.213 559.44C341.116 572.287 393.419 720.524 506.687 684.206C619.955 647.888 558.143 472.699 585.549 385.447Z" fill="url(#paint0_linear_290:1067)"/>
@@ -142,153 +148,114 @@
               </linearGradient>
               </defs>
               </svg>-->
-      </section>
+    </section>
 
-      <!-- Projects (6 for desktop and 3 for mobile) -->
-      <div id="projects-section" >
-        <section  class="container-md">
-          
-
-          <h2 class="pl-title-2 text-center">
-            My projects
-          </h2>
-
-          <div class="row">
-             
-                            
-
-            <div class="col-md-4 d-flex flex-column">
-              <div class="pl-project-card p-lg-4 p-md-2 p-4">
-
-                <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                <h3 class="pl-title-3">Splitwise</h3>
-                <div class="pl-tag-wrapper">
-                    <a class="pl-tag text-decoration-none" href="projects/all-projects.html?filter=ux" >UX Design</a> 
-                    <a class="pl-tag text-decoration-none" href="projects/all-projects.htmlfilter=ux" >altro</a>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="col-md-4 d-flex flex-column">
-              <div class="pl-project-card p-lg-4 p-md-2 p-4">
-
-                <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                <h3 class="pl-title-3">Splitwise</h3>
-                <div class="pl-tag-wrapper">
-                  <span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span>
-                </div>
-
-              </div>    
-            </div>
-            
-            <div class="col-md-4 d-flex flex-column">
-              <div class="pl-project-card p-lg-4 p-md-2 p-4">
-
-                <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                <h3 class="pl-title-3">Splitwise</h3>
-                <div class="pl-tag-wrapper">
-                <span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span>
-                </div>
-
-              </div>
-            </div>
-
-            </div>
-        
-          <div class="row d-md-flex d-none">
-
-
-              <div class="col-md-4 d-flex flex-column">
-                <div class="pl-project-card p-lg-4 p-md-2 p-4">
-  
-                  <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                  <h3 class="pl-title-3">Splitwise</h3>
-                  <div class="pl-tag-wrapper">
-                    <span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span>
-                  </div>
-  
-                </div>
-              </div>
-  
-              <div class="col-md-4 d-flex flex-column">
-                <div class="pl-project-card p-lg-4 p-md-2 p-4">
-  
-                  <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                  <h3 class="pl-title-3">Splitwise</h3>
-                  <div class="pl-tag-wrapper">
-                    <span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span>
-                  </div>
-  
-                </div>    
-              </div>
-              
-              <div class="col-md-4 d-flex flex-column">
-                <div class="pl-project-card p-lg-4 p-md-2 p-4">
-  
-                  <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png">
-                  <h3 class="pl-title-3">Splitwise</h3>
-                  <div class="pl-tag-wrapper">
-                  <span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span>
-                  </div>
-  
-                </div>
-              </div>
-  
-            </div>
-
-            <div class="d-flex justify-content-center">
-              <a class="pb-3" href="projects/all-projects.html">See all</a>
-            </div>
-
-        </section>
-      </div>
-
-      <!-- Curriculum section -->
-      <section id="cv-section" class="container-md mt-md-5 mt-3">
-        <h2 class="pl-title-2 text-center mt-md-3">
-          About me
-        </h2>
+    <!-- Projects (6 for desktop and 3 for mobile) -->
+    <div id="projects-section">
+      <section class="container-md">
+        <h2 class="pl-title-2 text-center">My projects</h2>
 
         <div class="row">
-
-          <div class="col-md-7">
-
-            <div class="d-flex flex-md-row flex-column mb-md-5 mb-2 md-3 pl-paragraph"">
-              <div>
-                <i class="fas fa-signature mb-2"></i>
-                Laura Nesossi
-              </div>
-
-              <div>
-                <i class="fas fa-birthday-cake ps-md-4 mb-2"></i>
-                20/12/1997
-              </div>
-
-              <div>
-                <i class="fas fa-map-marker-alt ps-md-4 mb-2"></i>
-                Milano/Bergamo
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <a href="projects/splitwise.html">
+                <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+                <h3 class="pl-title-3">Splitwise</h3>
+              </a>
+              <div class="pl-tag-wrapper">
+                <a class="pl-tag text-decoration-none" href="projects/all-projects.html?filter=ux">UX Design</a>
+                <a class="pl-tag text-decoration-none" href="projects/all-projects.htmlfilter=ux">altro</a>
               </div>
             </div>
-
-            <p class="pl-paragraph"> 
-              During my CS bachelor's degree i felt that my <span class="fw-bold">empathy</span> and <span class="fw-bold">ability to relate</span> to others were not being exploited enough.<br/>
-              I started to get passionate about communication phsycology and users’ experiences, and I choose a Master in topic.
-            </p>
-            <p class="pl-paragraph">
-              In the last two years I deepened my knowledge of user pshycology and <span class="fw-bold">research processes</span>, and create some design skills.
-            </p>
-            <p class="pl-paragraph">
-              Now <span class="fw-bold">I want to improve my abilities</span> with new projects and challenges.
-            </p>
-
           </div>
 
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+              <h3 class="pl-title-3">Splitwise</h3>
+              <div class="pl-tag-wrapper"><span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span></div>
+            </div>
+          </div>
 
-          <div class="col-md-5 d-flex justify-content-center align-items-end">
-            <img src="images/cv-photo.png">
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+              <h3 class="pl-title-3">Splitwise</h3>
+              <div class="pl-tag-wrapper"><span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span></div>
+            </div>
+          </div>
+        </div>
 
-            <!--
+        <div class="row d-md-flex d-none">
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+              <h3 class="pl-title-3">Splitwise</h3>
+              <div class="pl-tag-wrapper"><span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+              <h3 class="pl-title-3">Splitwise</h3>
+              <div class="pl-tag-wrapper"><span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex flex-column">
+            <div class="pl-project-card p-lg-4 p-md-2 p-4">
+              <img class="pl-project-cover pl-shadow" src="images/projects-covers/splitwise-cover.png" />
+              <h3 class="pl-title-3">Splitwise</h3>
+              <div class="pl-tag-wrapper"><span class="pl-tag">UX Design</span> <span class="pl-tag">altro</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a class="pb-3" href="projects/all-projects.html">See all</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Curriculum section -->
+    <section id="cv-section" class="container-md mt-md-5 mt-3">
+      <h2 class="pl-title-2 text-center mt-md-3">About me</h2>
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="d-flex flex-md-row flex-column mb-md-5 mb-2 md-3 pl-paragraph"">
+          <div>
+            <i class="fas fa-signature mb-2"></i>
+            Laura Nesossi
+          </div>
+
+          <div>
+            <i class="fas fa-birthday-cake ps-md-4 mb-2"></i>
+            20/12/1997
+          </div>
+
+          <div>
+            <i class="fas fa-map-marker-alt ps-md-4 mb-2"></i>
+            Milano/Bergamo
+          </div>
+        </div>
+
+        <p class="pl-paragraph">
+          During my CS bachelor's degree i felt that my <span class="fw-bold">empathy</span> and <span class="fw-bold">ability to relate</span> to others were
+          not being exploited enough.<br />
+          I started to get passionate about communication phsycology and users’ experiences, and I choose a Master in topic.
+        </p>
+        <p class="pl-paragraph">
+          In the last two years I deepened my knowledge of user pshycology and <span class="fw-bold">research processes</span>, and create some design skills.
+        </p>
+        <p class="pl-paragraph">Now <span class="fw-bold">I want to improve my abilities</span> with new projects and challenges.</p>
+      </div>
+
+      <div class="col-md-5 d-flex justify-content-center align-items-end">
+        <img src="images/cv-photo.png" />
+
+        <!--
             <svg id="pl-spot-3" width="596" height="502" viewBox="0 0 596 502" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M346.741 384.331C317.121 400.536 280.633 493.086 219.045 500.524C110.766 513.603 151.769 306.973 96.7792 272C-22 196.458 -39.7711 26.0787 96.7789 1.72708C186.271 -14.2325 253.913 87.1279 305.574 109.213C357.235 131.297 416.428 17.8755 514.348 46.1582C612.269 74.441 515.53 154.663 532.279 184.727C549.028 214.792 610.498 245.723 591.683 321.654C572.868 397.585 376.361 368.126 346.741 384.331Z" fill="#F7E9ED"/>
               </svg>
@@ -297,175 +264,158 @@
             <svg id="pl-spot-2" width="450" height="392" viewBox="0 0 450 392" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M50.5533 371.578C111.98 429.427 164.027 337.78 202.464 359.305C232.7 376.237 301.126 359.403 327.948 342.88C356.55 325.261 383.282 302.152 371.948 264.525C357.263 215.772 474.602 171.817 443.853 54.4494C430.17 2.21975 373.581 -13.4045 326.072 13.1637C283.493 36.9754 248.045 136.54 182.38 148.343C134.03 157.033 82.8072 133.856 39.8779 187.618C-3.05144 241.38 -25.815 299.658 50.5533 371.578Z" fill="#FBDBDD"/>
               </svg>-->
+      </div>
 
-              
-                
-          </div>
+      <div class="row mt-5">
+        <!-- Colonna di sinistra -->
+        <div class="col-md-6 left">
+          <h3 class="pl-title-3 pb-3">Education</h3>
 
-        </div>
+          <div class="pl-line"></div>
 
-        <div class="row mt-5">
+          <div class="d-flex align-items-center">
+            <div class="pl-ball"></div>
 
-          <!-- Colonna di sinistra -->
-          <div class="col-md-6 left">
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
 
-            <h3 class="pl-title-3 pb-3 ">Education</h3>
-
-            <div class="pl-line"></div>
-            
-            <div class="d-flex align-items-center">
-
-              <div class="pl-ball"></div>
-
-              <div class="ps-4 pl-cv-card pl-shadow">
-                2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                
-                <div class="collapse " id="collapseExample1">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>
+              <div class="collapse" id="collapseExample1">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
               </div>
-
-            </div>
-
-
-            <div class="d-flex align-items-center">
-              <div class="pl-ball"></div>
-              <div class="ps-4 pl-cv-card pl-shadow">
-
-                2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                
-                <div class="collapse " id="collapseExample2">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>     
-              </div>
-
-            </div>
-
-
-            <div class="d-flex align-items-center">
-
-              <div class="pl-ball"></div>
-
-              <div class="ps-4 pl-cv-card pl-shadow">
-                2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                 
-                
-                <div class="collapse " id="collapseExample3">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>     
-
-              </div>
-
-            </div>
-
-
-            
-          </div>
-          
-          <!-- Colonna di destra -->
-          <div class="col-md-6 right text-end">
-
-            <h3 class="pl-title-3 pb-3  text-end">Experiences</h3>
-
-            <div class="pl-line"></div>
-            
-            <div class="d-flex flex-row-reverse align-items-center">
-
-              <div class="pl-ball"></div>
-
-              <div class="ps-4 pl-cv-card pl-shadow">
-                2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                
-                <div class="collapse " id="collapseExample4">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div class="d-flex flex-row-reverse align-items-center">
-
-              <div class="pl-ball"></div>
-
-              <div class="ps-4 pl-cv-card pl-shadow">
-                  2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                
-                <div class="collapse " id="collapseExample5">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div class="d-flex flex-row-reverse align-items-center">
-
-              <div class="pl-ball"></div>
-
-              <div class="ps-4 pl-cv-card pl-shadow">
-                  2019-2020
-                  <a class="" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
-                    <h4 class="pt-2">Communication’s Theory and Technology</h4>
-                    <h5 class="pb-2">Master Degree - UNIMIB</h5>
-                  </a>
-                
-                <div class="collapse " id="collapseExample6">
-                  <p>The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical projects with all the research process</p>
-                  <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
-                </div>
-
-              </div>
-
             </div>
           </div>
 
+          <div class="d-flex align-items-center">
+            <div class="pl-ball"></div>
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
+
+              <div class="collapse" id="collapseExample2">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="pl-ball"></div>
+
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
+
+              <div class="collapse" id="collapseExample3">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="col-md-6">
-          
+        <!-- Colonna di destra -->
+        <div class="col-md-6 right text-end">
+          <h3 class="pl-title-3 pb-3 text-end">Experiences</h3>
+
+          <div class="pl-line"></div>
+
+          <div class="d-flex flex-row-reverse align-items-center">
+            <div class="pl-ball"></div>
+
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
+
+              <div class="collapse" id="collapseExample4">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row-reverse align-items-center">
+            <div class="pl-ball"></div>
+
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
+
+              <div class="collapse" id="collapseExample5">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row-reverse align-items-center">
+            <div class="pl-ball"></div>
+
+            <div class="ps-4 pl-cv-card pl-shadow">
+              2019-2020
+              <a class="" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+                <h4 class="pt-2">Communication’s Theory and Technology</h4>
+                <h5 class="pb-2">Master Degree - UNIMIB</h5>
+              </a>
+
+              <div class="collapse" id="collapseExample6">
+                <p>
+                  The course offers a broad view from psycological bases of communication and UX to practical HTML/CSS implementation, with a lot of practical
+                  projects with all the research process
+                </p>
+                <p>I exit with a vote of 110L/110 with a thesis that was an experimental study about fake news spread trought social media</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-      </section>
-      
+      <div class="col-md-6"></div>
+    </section>
 
-      <footer>
-        <div class="container-md text-align-center">
-            miao miao miao
-        </div>
-      </footer>
+    <footer>
+      <div class="container-md text-align-center">miao miao miao</div>
+    </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
- 
-  <!-- JS script -->
- <script src="scripts/script.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
-</body>
-
+    <!-- JS script -->
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
