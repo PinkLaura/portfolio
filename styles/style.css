@@ -29,6 +29,10 @@ a:visited,
   text-decoration: none;
 }
 
+.pl-cv-card p a {
+  text-decoration: underline;
+}
+
 a:hover {
   color: var(--purple) !important;
 }
