@@ -11,11 +11,18 @@
 }
 
 body {
-  background-image: url(../images/background/spot-1.svg);
-  background-position: calc(50% - 17rem) 2rem;
-  background-size: 40rem auto;
-  background-repeat: no-repeat;
+  background-image: url(../images/background/spot-1.svg), url(../images/background/spot-2.svg), url(../images/background/spot-3.svg);
+  background-position: calc(50% - 17rem) 2rem, calc(100% - 1rem) 100vh, 2rem 135vh;
+  background-size: 40rem auto, 12rem auto, 18rem auto;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
+/*
+#projects-section container-md {
+  background-image: url(../images/background/spot-2.svg), url(../images/background/spot-3.svg);
+  background-position: left top, left bottom;
+  background-size: 12rem auto, 12rem auto;
+  background-repeat: no-repeat, no-repeat;
+}*/
 
 .pl-cv-image {
   background-image: url(../images/background/spot-4.svg), url(../images/background/spot-5.svg);
@@ -63,46 +70,6 @@ body {
 #cv-section .col-md-5,
 .col-md-6 {
   position: relative;
-}
-
-/*All the decorative spots*/
-
-#pl-spot-1 {
-  position: absolute;
-  right: -8rem;
-  bottom: -7rem;
-
-  z-index: 0;
-  max-height: 38rem;
-  overflow: hidden;
-}
-
-#pl-spot-2,
-#pl-spot-3 {
-  position: absolute;
-  left: 1rem;
-  bottom: -2rem;
-
-  z-index: -10;
-}
-
-#pl-spot-3 {
-  bottom: -6rem;
-  max-width: 28rem;
-}
-
-#pl-spot-4,
-#pl-spot-5 {
-  position: absolute;
-  bottom: -60vh;
-
-  z-index: -10;
-  max-width: 25rem;
-}
-
-#pl-spot-4 {
-  bottom: -45vh;
-  right: 0.5rem;
 }
 
 /*Curriculum cards*/
