@@ -1,159 +1,167 @@
 /* ------- import general CSS  ------- */
-@import url('style.css');
+@import url("style.css");
 
-
-.stylized-me{
-    max-height: 22rem;
+.stylized-me {
+  max-height: 22rem;
 }
 
-#initial-section{
-    margin-top: 15vh;
-    max-width: 100%;
+#initial-section {
+  margin-top: 15vh;
+  max-width: 100%;
 }
 
-/*
-#initial-section::before {
-    position: absolute;
-    right: 35rem;
-    top: 13rem;
-
-    height: 38rem;
-    z-index: 0;
-}*/
-
-
-#initial-section div, 
-#initial-section .stylized-me{
-    z-index: 1020;
-    position: relative;
+body {
+  background-image: url(../images/background/spot-1.svg);
+  background-position: calc(50% - 17rem) 2rem;
+  background-size: 40rem auto;
+  background-repeat: no-repeat;
 }
 
-#projects-section{
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(30px);
-    z-index: 1020;
-    position: relative;
+.pl-cv-image {
+  background-image: url(../images/background/spot-4.svg), url(../images/background/spot-5.svg);
+  background-position: center, 0.5rem center;
+  background-size: 100% 100%, 100% 95%;
+  background-repeat: no-repeat, no-repeat;
+}
 
+@media screen and (max-width: 600px) {
+  body {
+    background-position: calc(50% - 2rem) 0;
+    background-size: 150% auto;
+  }
+
+  #initial-section {
     margin-top: 10vh;
-    padding-top: 5vh;
+  }
 }
 
-
-#cv-section i{
-    color: var(--purple);
+#initial-section div,
+#initial-section .stylized-me {
+  z-index: 1020;
+  position: relative;
 }
 
-#cv-section img{
-    max-width: 18rem;
-    max-height: 18rem;
+#projects-section {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  z-index: 1020;
+  position: relative;
+
+  margin-top: 10vh;
+  padding-top: 5vh;
 }
 
-#cv-section .col-md-5, .col-md-6{
-    position: relative;
+#cv-section i {
+  color: var(--purple);
+}
+
+#cv-section img {
+  max-width: 18rem;
+  max-height: 18rem;
+}
+
+#cv-section .col-md-5,
+.col-md-6 {
+  position: relative;
 }
 
 /*All the decorative spots*/
 
-#pl-spot-1{
-    position: absolute;
-    right: -8rem;
-    bottom: -7rem;
+#pl-spot-1 {
+  position: absolute;
+  right: -8rem;
+  bottom: -7rem;
 
-    z-index: 0;
-    max-height: 38rem;
-    overflow: hidden;
+  z-index: 0;
+  max-height: 38rem;
+  overflow: hidden;
 }
 
-#pl-spot-2, #pl-spot-3 {
-    position: absolute;
-    left: 1rem;
-    bottom: -2rem;
+#pl-spot-2,
+#pl-spot-3 {
+  position: absolute;
+  left: 1rem;
+  bottom: -2rem;
 
-    z-index: -10;
+  z-index: -10;
 }
 
-#pl-spot-3{
-    bottom: -6rem;
-    max-width: 28rem;
+#pl-spot-3 {
+  bottom: -6rem;
+  max-width: 28rem;
 }
 
-#pl-spot-4, #pl-spot-5{
-    position: absolute;
-    bottom: -60vh;
+#pl-spot-4,
+#pl-spot-5 {
+  position: absolute;
+  bottom: -60vh;
 
-    z-index: -10;
-    max-width: 25rem;
+  z-index: -10;
+  max-width: 25rem;
 }
 
-#pl-spot-4{
-    bottom: -45vh;
-    right: 0.5rem;
+#pl-spot-4 {
+  bottom: -45vh;
+  right: 0.5rem;
 }
 
 /*Curriculum cards*/
 
-.pl-cv-card{
-    background: #FFFFFF;
-    border-radius: 20px;
+.pl-cv-card {
+  background: #ffffff;
+  border-radius: 20px;
 
-    font-size: 0.8rem;    
-    font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  font-family: "Raleway", sans-serif;
 
-    width: 100%;
-    padding: 1rem;
-    
-    margin: 1rem 1rem 1rem 0;
+  width: 100%;
+  padding: 1rem;
+
+  margin: 1rem 1rem 1rem 0;
 }
 
+.pl-cv-card h4,
+.pl-cv-card h5 {
+  color: var(--fucsia);
+  font-size: 0.8rem;
 
-.pl-cv-card h4, .pl-cv-card h5 {
-    color: var(--fucsia);
-    font-size: 0.8rem;
-
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin: 0;
 }
 
-.pl-cv-card h4{
-    font-size: 1rem;
-    
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
+.pl-cv-card h4 {
+  font-size: 1rem;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 
 .pl-line {
-    position: absolute;
-    top: 3rem;
-    bottom: 0;
+  position: absolute;
+  top: 3rem;
+  bottom: 0;
 
-    width: 3px;
-    background-color: var(--grey-dark);
-    z-index: 10;
+  width: 3px;
+  background-color: var(--grey-dark);
+  z-index: 10;
 }
 
-.left .pl-line{
-    left: calc(1.5rem - 1px);
+.left .pl-line {
+  left: calc(1.5rem - 1px);
 }
 
-.right .pl-line{
-    right: calc(2.5rem - 1px);
+.right .pl-line {
+  right: calc(2.5rem - 1px);
 }
 
-
-.pl-ball{
-    margin-right: 1.1rem;
-    min-width: 1.3rem;
-    min-height: 1.3rem;
-    border-radius: 50%;
-    background-color: var(--fucsia);
-    border: 3px solid var(--grey-yellow);
-    box-shadow: 0 0 0 3px var(--fucsia);
-    z-index: 20;
-}
-
-@media screen and (max-width: 600px) {
-    #initial-section{
-        margin-top: 10vh;
-    }
+.pl-ball {
+  margin-right: 1.1rem;
+  min-width: 1.3rem;
+  min-height: 1.3rem;
+  border-radius: 50%;
+  background-color: var(--fucsia);
+  border: 3px solid var(--grey-yellow);
+  box-shadow: 0 0 0 3px var(--fucsia);
+  z-index: 20;
 }
