@@ -16,13 +16,6 @@ body {
   background-size: 40rem auto, 12rem auto, 18rem auto;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
-/*
-#projects-section container-md {
-  background-image: url(../images/background/spot-2.svg), url(../images/background/spot-3.svg);
-  background-position: left top, left bottom;
-  background-size: 12rem auto, 12rem auto;
-  background-repeat: no-repeat, no-repeat;
-}*/
 
 .pl-cv-image {
   background-image: url(../images/background/spot-4.svg), url(../images/background/spot-5.svg);
@@ -33,8 +26,8 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-position: calc(50% - 2rem) 0;
-    background-size: 150% auto;
+    background-position: calc(50% - 2rem) 0, right 130vh, 0 175vh;
+    background-size: 150% auto, 12rem auto, 18rem auto;
   }
 
   #initial-section {
