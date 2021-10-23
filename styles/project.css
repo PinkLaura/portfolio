@@ -2,10 +2,28 @@
 @import url("style.css");
 
 .project-section {
-  margin-top: 10vh;
+  padding-top: 12vh;
 }
 
 iframe {
   width: 100%;
   height: 600px;
+}
+
+body {
+  background-image: url(../images/background/spot-7.svg), url(../images/background/spot-6.svg), url(../images/background/spot-8.svg);
+  background-position: calc(50% - 20rem) 10rem, calc(50% - 16rem) 2rem, right 20rem;
+  background-size: 15rem auto, 17rem auto, 18rem auto;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.pl-layer-blur {
+  backdrop-filter: blur(30px);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-position: left 12rem, right 2rem, 0 15rem;
+    background-size: 55% auto, 12rem auto, 18rem auto;
+  }
 }
