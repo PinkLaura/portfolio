@@ -108,11 +108,11 @@ body {
 }
 
 .left .pl-line {
-  left: calc(1.5rem - 1px);
+  left: calc(1.5rem - 3px);
 }
 
 .right .pl-line {
-  right: calc(2.5rem - 1px);
+  right: calc(1.5rem - 3px);
 }
 
 .pl-ball {
@@ -124,4 +124,13 @@ body {
   border: 3px solid var(--grey-yellow);
   box-shadow: 0 0 0 3px var(--fucsia);
   z-index: 20;
+}
+
+.right .pl-ball {
+  margin-right: 0;
+  margin-left: 1.1rem;
+}
+
+.right .pl-cv-card {
+  margin: 1rem 0 1rem 1rem;
 }
