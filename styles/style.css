@@ -170,6 +170,10 @@ i {
 
 /*Nav*/
 
+.navbar-brand img {
+  max-height: 1.7rem;
+}
+
 .nav-link,
 a {
   font-family: "Raleway", sans-serif;
