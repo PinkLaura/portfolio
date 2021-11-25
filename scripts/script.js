@@ -28,6 +28,8 @@ $(document).ready(function () {
     if ($(window).width() > 700) {
       $(".collapse").addClass("show");
       $(".navbar-collapse").removeClass("show");
+
+      $(".collapsed").removeClass("collapsed");
     }
   });
 

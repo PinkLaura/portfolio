@@ -137,4 +137,13 @@ body {
 
 #cv-section .fa-angle-down {
   color: var(--grey-light);
+  transition-duration: 0.5s;
+}
+
+#cv-section .fa-angle-down {
+  transform: rotate(180deg);
+}
+
+#cv-section .collapsed .fa-angle-down {
+  transform: rotate(0);
 }
