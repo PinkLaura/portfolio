@@ -28,6 +28,10 @@
   transition-duration: 1s;
 }
 
+section {
+  min-height: 90vh;
+}
+
 .project-show {
   display: flex;
 }
