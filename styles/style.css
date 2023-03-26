@@ -33,6 +33,10 @@ a:visited,
   text-decoration: underline;
 }
 
+.pl-cv-card ul {
+  padding-left: 1rem;
+}
+
 a:hover {
   color: var(--purple) !important;
 }
