@@ -147,3 +147,7 @@ body {
 #cv-section .collapsed .fa-angle-down {
   transform: rotate(0);
 }
+
+.bending-card {
+  min-height: calc(100% - 2rem);
+}
