@@ -37,6 +37,10 @@ a:visited,
   padding-left: 1rem;
 }
 
+ul li {
+  display: list-item;
+}
+
 a:hover {
   color: var(--purple) !important;
 }
